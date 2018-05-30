@@ -60,6 +60,13 @@ h4 {
   /*border: 1px solid white;*/
 }
 
+h5 {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 40px 0;
+  /*border: 1px solid white;*/
+}
+
 /* Header */
 
 header {
@@ -191,6 +198,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-image: url("../img/img-locations-background.jpg");
   background-size: cover;
   background-position: center;
@@ -215,6 +223,13 @@ header nav {
   background-color: black;
 }
 
+.locations-title {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  border: 1px solid white;
+}
+
 /* Third Section with Locations */
 
 footer {
@@ -225,6 +240,10 @@ footer {
   height: 200px;
   margin-top: 10px;
   /*border: 1px solid white;*/
+}
+
+footer h2 {
+  margin-bottom: 20px;
 }
 
 .copyright {
