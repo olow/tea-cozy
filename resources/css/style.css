@@ -51,13 +51,13 @@ h2 {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: -20px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 h4 {
   font-size: 22px;
   font-weight: 400;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 /* Header */
@@ -85,9 +85,10 @@ header {
 }
 
 header nav span{
+  font-weight: 300;
   display: inline-block;
   padding: 20px 10px;
-  /*border: 1px solid white;*/
+  /*/*border: 1px solid white;*/*/
 }
 
 header nav {
@@ -99,22 +100,22 @@ header nav {
 
 .main-content {
   display: flex;
-  direction: column;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 69px;
 }
 
-.hero {
+#mission {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../img/img-mission-background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, .1),rgba(0, 0, 0, 0.1)), url("../img/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
-  background-color: yellow;
+  /*border: 1px solid white;*/
 }
 
-.title {
+.mission-title {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -122,4 +123,57 @@ header nav {
   background-color: black;
   width: 100%;
   height: 100px;
+}
+
+#featured {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1000px;
+  height: auto;
+  margin-top: 40px;
+  /*border: 1px solid white;*/
+}
+
+.featured-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tea {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 20px 10px;
+}
+
+.tea span {
+  background-color: yellow;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+
+.tea.blitz {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.tea.rum {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.tea.donuts {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.tea.myrtle {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.tea.bizarre {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 }
