@@ -1,0 +1,125 @@
+/*
+Who is more important:
+tagname     1
+className   10
+id          100
+!important  1000
+mom
+Be never to specific wtih CSS!
+*/
+
+/* SCSS Colors:
+$pine: rgba(19,83,84,1); hsla(181, 77%, 33%, 1)
+$moss: rgba(170,147,49,1);
+$ivory: rgba(242,234,220,1);
+$white: #fff;*/
+
+/* Boilerplate  for clean start */
+html, body, input, button {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+/*
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*/
+
+/* Universal Styles */
+
+body, input, button, a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+  background-color: black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  border: 1px solid white;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 400;
+  border: 1px solid white;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+header nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  /*border: 1px solid white;*/
+}
+
+header nav {
+  padding-right: 40px;
+  /*border: 1px solid white;*/
+}
+
+/* Main Content Container */
+
+.main-content {
+  display: flex;
+  direction: column;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  background-color: yellow;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+}
